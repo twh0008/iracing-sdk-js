@@ -1,29 +1,34 @@
 {
-  "timestamp": "2024-12-13T01:47:04.527Z",
+  "timestamp": "2025-06-18T19:32:18.194Z",
   "data": {
     "WeekendInfo": {
-      "TrackName": "virginia 2022 full",
-      "TrackID": 465,
-      "TrackLength": "5.22 km",
-      "TrackLengthOfficial": "5.26 km",
-      "TrackDisplayName": "Virginia International Raceway",
-      "TrackDisplayShortName": "VIR",
+      "TrackName": "roadatlanta full",
+      "TrackID": 127,
+      "TrackLength": "4.0569 km",
+      "TrackLengthOfficial": "4.09 km",
+      "TrackDisplayName": "Road Atlanta",
+      "TrackDisplayShortName": "Road Atlanta",
       "TrackConfigName": "Full Course",
-      "TrackCity": "Alton",
+      "TrackCity": "Braselton",
+      "TrackState": "GA",
       "TrackCountry": "USA",
-      "TrackAltitude": "166.18 m",
-      "TrackLatitude": "36.568814 m",
-      "TrackLongitude": "-79.206660 m",
-      "TrackNorthOffset": "4.2700 rad",
-      "TrackNumTurns": 20,
-      "TrackPitSpeedLimit": "60.00 kph",
+      "TrackAltitude": "291.34 m",
+      "TrackLatitude": "34.150393 m",
+      "TrackLongitude": "-83.814226 m",
+      "TrackNorthOffset": "0.5603 rad",
+      "TrackNumTurns": 12,
+      "TrackPitSpeedLimit": "72.00 kph",
+      "TrackPaceSpeed": "26.82 kph",
+      "TrackNumPitStalls": 51,
       "TrackType": "road course",
       "TrackDirection": "neutral",
       "TrackWeatherType": "Static",
       "TrackSkies": "Partly Cloudy",
       "TrackSurfaceTemp": "39.81 C",
+      "TrackSurfaceTempCrew": "48.89 C",
       "TrackAirTemp": "25.56 C",
-      "TrackAirPressure": "29.36 Hg",
+      "TrackAirPressure": "28.94 Hg",
+      "TrackAirDensity": "1.14 kg/m^3",
       "TrackWindVel": "0.89 m/s",
       "TrackWindDir": "0.00 rad",
       "TrackRelativeHumidity": "45 %",
@@ -31,7 +36,7 @@
       "TrackPrecipitation": "0 %",
       "TrackCleanup": 0,
       "TrackDynamicTrack": 1,
-      "TrackVersion": "2024.11.26.01",
+      "TrackVersion": "2025.05.30.01",
       "SeriesID": 0,
       "SeasonID": 0,
       "SessionID": 0,
@@ -52,7 +57,7 @@
       "HeatRacing": 0,
       "BuildType": "Release",
       "BuildTarget": "Members",
-      "BuildVersion": "2024.12.11.01",
+      "BuildVersion": "2025.06.12.02",
       "RaceFarm": null,
       "WeekendOptions": {
         "NumStarters": 0,
@@ -69,8 +74,8 @@
         "WeatherTemp": "25.56 C",
         "RelativeHumidity": "45 %",
         "FogLevel": "0 %",
-        "TimeOfDay": "12:00 pm",
-        "Date": "2024-05-15T00:00:00.000Z",
+        "TimeOfDay": "3:39 pm",
+        "Date": "2025-05-15T00:00:00.000Z",
         "EarthRotationSpeedupFactor": 1,
         "Unofficial": 1,
         "CommercialMode": "consumer",
@@ -89,6 +94,7 @@
       }
     },
     "SessionInfo": {
+      "CurrentSessionNum": 0,
       "Sessions": [
         {
           "SessionNum": 0,
@@ -218,43 +224,27 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "Scenic_07"
-            },
-            {
-              "CameraNum": 2,
-              "CameraName": "Scenic_08"
-            },
-            {
-              "CameraNum": 3,
-              "CameraName": "Scenic_09"
-            },
-            {
-              "CameraNum": 4,
-              "CameraName": "Scenic_10"
-            },
-            {
-              "CameraNum": 5,
-              "CameraName": "Scenic_02"
-            },
-            {
-              "CameraNum": 6,
-              "CameraName": "Scenic_03"
-            },
-            {
-              "CameraNum": 7,
-              "CameraName": "Scenic_05"
-            },
-            {
-              "CameraNum": 8,
               "CameraName": "Scenic_04"
             },
             {
-              "CameraNum": 9,
-              "CameraName": "Scenic_06"
+              "CameraNum": 2,
+              "CameraName": "Scenic_03"
             },
             {
-              "CameraNum": 10,
+              "CameraNum": 3,
               "CameraName": "Scenic_01"
+            },
+            {
+              "CameraNum": 4,
+              "CameraName": "Scenic_02"
+            },
+            {
+              "CameraNum": 5,
+              "CameraName": "Scenic_05"
+            },
+            {
+              "CameraNum": 6,
+              "CameraName": "Scenic_06"
             }
           ]
         },
@@ -264,43 +254,63 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamTV1_00"
+              "CameraName": "CamTV1_11"
             },
             {
               "CameraNum": 2,
-              "CameraName": "CamTV1_01"
-            },
-            {
-              "CameraNum": 3,
-              "CameraName": "CamTV1_02"
-            },
-            {
-              "CameraNum": 4,
-              "CameraName": "CamTV1_03"
-            },
-            {
-              "CameraNum": 5,
-              "CameraName": "CamTV1_05"
-            },
-            {
-              "CameraNum": 6,
-              "CameraName": "CamTV1_04"
-            },
-            {
-              "CameraNum": 7,
-              "CameraName": "CamTV1_06"
-            },
-            {
-              "CameraNum": 8,
               "CameraName": "CamTV1_07"
             },
             {
+              "CameraNum": 3,
+              "CameraName": "CamTV1_01"
+            },
+            {
+              "CameraNum": 4,
+              "CameraName": "CamTV1_02"
+            },
+            {
+              "CameraNum": 5,
+              "CameraName": "CamTV1_04"
+            },
+            {
+              "CameraNum": 6,
+              "CameraName": "CamTV1_04b"
+            },
+            {
+              "CameraNum": 7,
+              "CameraName": "CamTV1_03"
+            },
+            {
+              "CameraNum": 8,
+              "CameraName": "CamTV1_06"
+            },
+            {
               "CameraNum": 9,
-              "CameraName": "CamTV1_08"
+              "CameraName": "CamTV1_06b"
             },
             {
               "CameraNum": 10,
+              "CameraName": "CamTV1_05"
+            },
+            {
+              "CameraNum": 11,
+              "CameraName": "CamTV1_08"
+            },
+            {
+              "CameraNum": 12,
               "CameraName": "CamTV1_09"
+            },
+            {
+              "CameraNum": 13,
+              "CameraName": "CamTV1_10b"
+            },
+            {
+              "CameraNum": 14,
+              "CameraName": "CamTV1_10"
+            },
+            {
+              "CameraNum": 15,
+              "CameraName": "CamTV1_00"
             }
           ]
         },
@@ -310,63 +320,79 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamTV2_04"
-            },
-            {
-              "CameraNum": 2,
-              "CameraName": "CamTV2_01"
-            },
-            {
-              "CameraNum": 3,
-              "CameraName": "CamTV2_02"
-            },
-            {
-              "CameraNum": 4,
-              "CameraName": "CamTV2_03"
-            },
-            {
-              "CameraNum": 5,
-              "CameraName": "CamTV2_05"
-            },
-            {
-              "CameraNum": 6,
-              "CameraName": "CamTV2_07"
-            },
-            {
-              "CameraNum": 7,
-              "CameraName": "CamTV2_08"
-            },
-            {
-              "CameraNum": 8,
-              "CameraName": "CamTV2_09"
-            },
-            {
-              "CameraNum": 9,
-              "CameraName": "CamTV2_10"
-            },
-            {
-              "CameraNum": 10,
-              "CameraName": "CamTV2_15"
-            },
-            {
-              "CameraNum": 11,
               "CameraName": "CamTV2_12"
             },
             {
-              "CameraNum": 12,
+              "CameraNum": 2,
               "CameraName": "CamTV2_13"
             },
             {
+              "CameraNum": 3,
+              "CameraName": "CamTV2_01"
+            },
+            {
+              "CameraNum": 4,
+              "CameraName": "CamTV2_01b"
+            },
+            {
+              "CameraNum": 5,
+              "CameraName": "CamTV2_00"
+            },
+            {
+              "CameraNum": 6,
+              "CameraName": "CamTV2_03"
+            },
+            {
+              "CameraNum": 7,
+              "CameraName": "CamTV2_04"
+            },
+            {
+              "CameraNum": 8,
+              "CameraName": "CamTV2_05"
+            },
+            {
+              "CameraNum": 9,
+              "CameraName": "CamTV2_06"
+            },
+            {
+              "CameraNum": 10,
+              "CameraName": "CamTV2_06b"
+            },
+            {
+              "CameraNum": 11,
+              "CameraName": "CamTV2_07"
+            },
+            {
+              "CameraNum": 12,
+              "CameraName": "CamTV2_08"
+            },
+            {
               "CameraNum": 13,
-              "CameraName": "CamTV2_14"
+              "CameraName": "CamTV2_09"
             },
             {
               "CameraNum": 14,
-              "CameraName": "CamTV2_11"
+              "CameraName": "CamTV2_10"
             },
             {
               "CameraNum": 15,
-              "CameraName": "CamTV2_00"
+              "CameraName": "CamTV2_10b"
+            },
+            {
+              "CameraNum": 16,
+              "CameraName": "CamTV2_11"
+            },
+            {
+              "CameraNum": 17,
+              "CameraName": "CamTV2_11b"
+            },
+            {
+              "CameraNum": 18,
+              "CameraName": "CamTV2_02b"
+            },
+            {
+              "CameraNum": 19,
+              "CameraName": "CamTV2_02"
             }
           ]
         },
@@ -376,7 +402,7 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamTV3_03"
+              "CameraName": "CamTV3_11"
             },
             {
               "CameraNum": 2,
@@ -388,7 +414,7 @@
             },
             {
               "CameraNum": 4,
-              "CameraName": "CamTV3_04"
+              "CameraName": "CamTV3_06"
             },
             {
               "CameraNum": 5,
@@ -396,7 +422,7 @@
             },
             {
               "CameraNum": 6,
-              "CameraName": "CamTV3_06"
+              "CameraName": "CamTV3_08"
             },
             {
               "CameraNum": 7,
@@ -404,15 +430,23 @@
             },
             {
               "CameraNum": 8,
-              "CameraName": "CamTV3_08"
+              "CameraName": "CamTV3_09"
             },
             {
               "CameraNum": 9,
-              "CameraName": "CamTV3_09"
+              "CameraName": "CamTV3_10b"
             },
             {
               "CameraNum": 10,
               "CameraName": "CamTV3_10"
+            },
+            {
+              "CameraNum": 11,
+              "CameraName": "CamTV3_04"
+            },
+            {
+              "CameraNum": 12,
+              "CameraName": "CamTV3_03"
             }
           ]
         },
@@ -434,43 +468,43 @@
             },
             {
               "CameraNum": 4,
-              "CameraName": "CamTV4_03"
-            },
-            {
-              "CameraNum": 5,
               "CameraName": "CamTV4_04"
             },
             {
+              "CameraNum": 5,
+              "CameraName": "CamTV4_03"
+            },
+            {
               "CameraNum": 6,
-              "CameraName": "CamTV4_05"
-            },
-            {
-              "CameraNum": 7,
-              "CameraName": "CamTV4_06"
-            },
-            {
-              "CameraNum": 8,
-              "CameraName": "CamTV4_08"
-            },
-            {
-              "CameraNum": 9,
               "CameraName": "CamTV4_07"
             },
             {
-              "CameraNum": 10,
-              "CameraName": "CamTV4_10"
+              "CameraNum": 7,
+              "CameraName": "CamTV4_08"
             },
             {
-              "CameraNum": 11,
+              "CameraNum": 8,
+              "CameraName": "CamTV4_05"
+            },
+            {
+              "CameraNum": 9,
               "CameraName": "CamTV4_09"
             },
             {
-              "CameraNum": 12,
+              "CameraNum": 10,
               "CameraName": "CamTV4_11"
             },
             {
-              "CameraNum": 13,
+              "CameraNum": 11,
+              "CameraName": "CamTV4_10"
+            },
+            {
+              "CameraNum": 12,
               "CameraName": "CamTV4_12"
+            },
+            {
+              "CameraNum": 13,
+              "CameraName": "CamTV4_14"
             },
             {
               "CameraNum": 14,
@@ -478,19 +512,11 @@
             },
             {
               "CameraNum": 15,
-              "CameraName": "CamTV4_14"
-            },
-            {
-              "CameraNum": 16,
               "CameraName": "CamTV4_15"
             },
             {
-              "CameraNum": 17,
-              "CameraName": "CamTV4_16"
-            },
-            {
-              "CameraNum": 18,
-              "CameraName": "CamTV4_17"
+              "CameraNum": 16,
+              "CameraName": "CamTV4_06"
             }
           ]
         },
@@ -500,19 +526,19 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamTV3_09b"
+              "CameraName": "CamTV1_06b"
             },
             {
               "CameraNum": 2,
-              "CameraName": "CamTV1_00"
-            },
-            {
-              "CameraNum": 3,
               "CameraName": "CamTV1_01"
             },
             {
-              "CameraNum": 4,
+              "CameraNum": 3,
               "CameraName": "CamTV1_02"
+            },
+            {
+              "CameraNum": 4,
+              "CameraName": "CamTV1_03"
             },
             {
               "CameraNum": 5,
@@ -520,131 +546,167 @@
             },
             {
               "CameraNum": 6,
-              "CameraName": "CamTV1_05"
+              "CameraName": "CamTV1_04b"
             },
             {
               "CameraNum": 7,
-              "CameraName": "CamTV1_06"
+              "CameraName": "CamTV1_05"
             },
             {
               "CameraNum": 8,
-              "CameraName": "CamTV1_07"
+              "CameraName": "CamTV1_06"
             },
             {
               "CameraNum": 9,
-              "CameraName": "CamTV1_09"
+              "CameraName": "CamTV1_07"
             },
             {
               "CameraNum": 10,
-              "CameraName": "CamTV2_00"
+              "CameraName": "CamTV1_08"
             },
             {
               "CameraNum": 11,
-              "CameraName": "CamTV2_01"
+              "CameraName": "CamTV1_09"
             },
             {
               "CameraNum": 12,
-              "CameraName": "CamTV2_02"
+              "CameraName": "CamTV1_10"
             },
             {
               "CameraNum": 13,
-              "CameraName": "CamTV2_03"
+              "CameraName": "CamTV1_10b"
             },
             {
               "CameraNum": 14,
-              "CameraName": "CamTV2_04"
+              "CameraName": "CamTV1_11"
             },
             {
               "CameraNum": 15,
-              "CameraName": "CamTV2_05"
+              "CameraName": "CamTV2_00"
             },
             {
               "CameraNum": 16,
-              "CameraName": "CamTV2_06"
+              "CameraName": "CamTV2_01"
             },
             {
               "CameraNum": 17,
-              "CameraName": "CamTV2_07"
+              "CameraName": "CamTV2_02"
             },
             {
               "CameraNum": 18,
-              "CameraName": "CamTV2_08"
+              "CameraName": "CamTV2_02b"
             },
             {
               "CameraNum": 19,
-              "CameraName": "CamTV2_09"
+              "CameraName": "CamTV2_03"
             },
             {
               "CameraNum": 20,
-              "CameraName": "CamTV2_10"
+              "CameraName": "CamTV2_04"
             },
             {
               "CameraNum": 21,
-              "CameraName": "CamTV2_11"
+              "CameraName": "CamTV2_05"
             },
             {
               "CameraNum": 22,
-              "CameraName": "CamTV2_12"
+              "CameraName": "CamTV2_06"
             },
             {
               "CameraNum": 23,
-              "CameraName": "CamTV2_14"
+              "CameraName": "CamTV2_06b"
             },
             {
               "CameraNum": 24,
-              "CameraName": "CamTV2_15"
+              "CameraName": "CamTV2_07"
             },
             {
               "CameraNum": 25,
-              "CameraName": "CamTV3_01"
+              "CameraName": "CamTV2_08"
             },
             {
               "CameraNum": 26,
-              "CameraName": "CamTV3_02"
+              "CameraName": "CamTV2_09"
             },
             {
               "CameraNum": 27,
-              "CameraName": "CamTV3_03"
+              "CameraName": "CamTV2_10"
             },
             {
               "CameraNum": 28,
-              "CameraName": "CamTV3_04"
+              "CameraName": "CamTV2_10b"
             },
             {
               "CameraNum": 29,
-              "CameraName": "CamTV3_05"
+              "CameraName": "CamTV2_11"
             },
             {
               "CameraNum": 30,
-              "CameraName": "CamTV3_05b"
+              "CameraName": "CamTV2_12"
             },
             {
               "CameraNum": 31,
-              "CameraName": "CamTV3_06"
+              "CameraName": "CamTV2_13"
             },
             {
               "CameraNum": 32,
-              "CameraName": "CamTV3_07"
+              "CameraName": "CamTV3_04"
             },
             {
               "CameraNum": 33,
-              "CameraName": "CamTV3_07b"
+              "CameraName": "CamTV3_05"
             },
             {
               "CameraNum": 34,
-              "CameraName": "CamTV3_08"
+              "CameraName": "CamTV3_06"
             },
             {
               "CameraNum": 35,
-              "CameraName": "CamTV3_09"
+              "CameraName": "CamTV3_07"
             },
             {
               "CameraNum": 36,
-              "CameraName": "CamTV3_10"
+              "CameraName": "CamTV3_08"
             },
             {
               "CameraNum": 37,
-              "CameraName": "CamTV4_00"
+              "CameraName": "CamTV3_09"
+            },
+            {
+              "CameraNum": 38,
+              "CameraName": "CamTV3_10"
+            },
+            {
+              "CameraNum": 39,
+              "CameraName": "CamTV3_10b"
+            },
+            {
+              "CameraNum": 40,
+              "CameraName": "CamTV3_11"
+            },
+            {
+              "CameraNum": 41,
+              "CameraName": "CamTV4_02"
+            },
+            {
+              "CameraNum": 42,
+              "CameraName": "CamTV4_11"
+            },
+            {
+              "CameraNum": 43,
+              "CameraName": "CamTV4_06"
+            },
+            {
+              "CameraNum": 44,
+              "CameraName": "CamTV4_07"
+            },
+            {
+              "CameraNum": 45,
+              "CameraName": "CamTV4_08"
+            },
+            {
+              "CameraNum": 46,
+              "CameraName": "CamRoll Bar"
             }
           ]
         },
@@ -655,6 +717,14 @@
             {
               "CameraNum": 1,
               "CameraName": "CamPit Lane"
+            },
+            {
+              "CameraNum": 2,
+              "CameraName": "CamPit Lane 3"
+            },
+            {
+              "CameraNum": 3,
+              "CameraName": "CamPit Lane 2"
             }
           ]
         },
@@ -664,7 +734,7 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamPit Lane 2"
+              "CameraName": "CamPit Lane 4"
             }
           ]
         },
@@ -674,7 +744,11 @@
           "Cameras": [
             {
               "CameraNum": 1,
-              "CameraName": "CamBlimp"
+              "CameraName": "CamBlimp1"
+            },
+            {
+              "CameraNum": 2,
+              "CameraName": "CamBlimp2"
             }
           ]
         },
@@ -725,8 +799,8 @@
       "Radios": [
         {
           "RadioNum": 0,
-          "HopCount": 2,
-          "NumFrequencies": 7,
+          "HopCount": 1,
+          "NumFrequencies": 6,
           "TunedToFrequencyNum": 0,
           "ScanningIsOn": 1,
           "Frequencies": [
@@ -771,19 +845,6 @@
             },
             {
               "FrequencyNum": 3,
-              "FrequencyName": "@CLUB",
-              "Priority": 20,
-              "CarIdx": -1,
-              "EntryIdx": -1,
-              "ClubID": 25,
-              "CanScan": 1,
-              "CanSquawk": 1,
-              "Muted": 0,
-              "IsMutable": 1,
-              "IsDeletable": 0
-            },
-            {
-              "FrequencyNum": 4,
               "FrequencyName": "@ADMIN",
               "Priority": 90,
               "CarIdx": -1,
@@ -796,7 +857,7 @@
               "IsDeletable": 0
             },
             {
-              "FrequencyNum": 5,
+              "FrequencyNum": 4,
               "FrequencyName": "@RACECONTROL",
               "Priority": 80,
               "CarIdx": -1,
@@ -809,7 +870,7 @@
               "IsDeletable": 0
             },
             {
-              "FrequencyNum": 6,
+              "FrequencyNum": 5,
               "FrequencyName": "@PRIVATE",
               "Priority": 70,
               "CarIdx": -1,
@@ -827,52 +888,65 @@
     },
     "DriverInfo": {
       "DriverCarIdx": 0,
-      "DriverUserID": 697587,
+      "DriverUserID": 535011,
       "PaceCarIdx": -1,
-      "DriverHeadPosX": -0.105,
-      "DriverHeadPosY": 0.325,
-      "DriverHeadPosZ": 0.535,
+      "DriverHeadPosX": -0.035,
+      "DriverHeadPosY": 0.343,
+      "DriverHeadPosZ": 0.564,
       "DriverCarIsElectric": 0,
-      "DriverCarIdleRPM": 1950,
-      "DriverCarRedLine": 8000,
-      "DriverCarEngCylinderCount": 8,
+      "DriverCarIdleRPM": 1750,
+      "DriverCarRedLine": 7500,
+      "DriverCarEngCylinderCount": 6,
       "DriverCarFuelKgPerLtr": 0.75,
-      "DriverCarFuelMaxLtr": 104,
+      "DriverCarFuelMaxLtr": 112,
       "DriverCarMaxFuelPct": 1,
       "DriverCarGearNumForward": 6,
       "DriverCarGearNeutral": 1,
       "DriverCarGearReverse": 1,
-      "DriverCarSLFirstRPM": 7000,
-      "DriverCarSLShiftRPM": 7700,
-      "DriverCarSLLastRPM": 7600,
-      "DriverCarSLBlinkRPM": 7950,
-      "DriverCarVersion": "2024.11.26.01",
-      "DriverPitTrkPct": 0.990978,
-      "DriverCarEstLapTime": 105.0762,
-      "DriverSetupName": "baseline.sto",
+      "DriverCarSLFirstRPM": 6500,
+      "DriverCarSLShiftRPM": 7375,
+      "DriverCarSLLastRPM": 7400,
+      "DriverCarSLBlinkRPM": 7450,
+      "DriverCarVersion": "2025.06.04.03",
+      "DriverCarEstLapTime": 75.287,
+      "DriverSetupName": "INVALID_LOADTYPE",
       "DriverSetupIsModified": 0,
-      "DriverSetupLoadTypeName": "baseline",
-      "DriverSetupPassedTech": 1,
+      "DriverSetupLoadTypeName": "invalid",
+      "DriverSetupPassedTech": 0,
       "DriverIncidentCount": 0,
+      "DriverBrakeCurvingFactor": 0.001,
+      "DriverTires": [
+        {
+          "TireIndex": 0,
+          "TireCompoundType": "Hard"
+        },
+        {
+          "TireIndex": 1,
+          "TireCompoundType": "Wet"
+        }
+      ],
       "Drivers": [
         {
           "CarIdx": 0,
-          "UserName": "Zachary Friss",
+          "UserName": "Taylor Hartley",
           "AbbrevName": null,
           "Initials": null,
-          "UserID": 697587,
+          "UserID": 535011,
           "TeamID": 0,
-          "TeamName": "Zachary Friss",
-          "CarNumber": "64",
-          "CarNumberRaw": 64,
-          "CarPath": "chevyvettez06rgt3",
+          "TeamName": "Taylor Hartley",
+          "CarNumber": "32",
+          "CarNumberRaw": 32,
+          "CarPath": "acuransxevo22gt3",
           "CarClassID": 0,
-          "CarID": 184,
+          "CarID": 194,
           "CarIsPaceCar": 0,
           "CarIsAI": 0,
           "CarIsElectric": 0,
-          "CarScreenName": "Chevrolet Corvette Z06 GT3.R",
-          "CarScreenNameShort": "Corvette GT3.R",
+          "CarScreenName": "Acura NSX GT3 EVO 22",
+          "CarScreenNameShort": "Acura NSX GT3 EVO 22",
+          "CarCfg": -1,
+          "CarCfgName": null,
+          "CarCfgCustomPaintExt": null,
           "CarClassShortName": null,
           "CarClassRelSpeed": 0,
           "CarClassLicenseLevel": 0,
@@ -881,22 +955,22 @@
           "CarClassPowerAdjust": "0.000 %",
           "CarClassDryTireSetLimit": "0 %",
           "CarClassColor": 16777215,
-          "CarClassEstLapTime": 105.0762,
+          "CarClassEstLapTime": 75.287,
           "IRating": 1,
           "LicLevel": 1,
           "LicSubLevel": 1,
           "LicString": "R 0.01",
           "LicColor": "0xundefined",
           "IsSpectator": 0,
-          "CarDesignStr": "10,FFFFFF,FF7A59,33475B",
-          "HelmetDesignStr": "7,ffffff,ff7a59,33475b",
-          "SuitDesignStr": "21,ff7a59,33475b,ffffff",
+          "CarDesignStr": "6,ffd700,000000,000000-000000",
+          "HelmetDesignStr": "56,ffd700,000000,000000",
+          "SuitDesignStr": "28,d3b507,000000,111111",
           "BodyType": 0,
-          "FaceType": 4,
+          "FaceType": 0,
           "HelmetType": 0,
-          "CarNumberDesignStr": "0,0,FFFFFF,777777,000000",
-          "CarSponsor_1": 0,
-          "CarSponsor_2": 0,
+          "CarNumberDesignStr": "0,2,ffffff,777777,000000",
+          "CarSponsor_1": 148,
+          "CarSponsor_2": 224,
           "CurDriverIncidentCount": 0,
           "TeamIncidentCount": 0
         }
@@ -910,132 +984,17 @@
         },
         {
           "SectorNum": 1,
-          "SectorStartPct": 0.184456
+          "SectorStartPct": 0.167875
         },
         {
           "SectorNum": 2,
-          "SectorStartPct": 0.337214
+          "SectorStartPct": 0.442307
         },
         {
           "SectorNum": 3,
-          "SectorStartPct": 0.504637
-        },
-        {
-          "SectorNum": 4,
-          "SectorStartPct": 0.734279
-        },
-        {
-          "SectorNum": 5,
-          "SectorStartPct": 0.829332
+          "SectorStartPct": 0.787105
         }
       ]
-    },
-    "CarSetup": {
-      "UpdateCount": 1,
-      "TiresAero": {
-        "TireType": {
-          "TireType": "Dry"
-        },
-        "LeftFront": {
-          "StartingPressure": "165 kPa",
-          "LastHotPressure": "165 kPa",
-          "LastTempsOMI": "44C, 44C, 44C",
-          "TreadRemaining": "100%, 100%, 100%"
-        },
-        "LeftRear": {
-          "StartingPressure": "165 kPa",
-          "LastHotPressure": "165 kPa",
-          "LastTempsOMI": "44C, 44C, 44C",
-          "TreadRemaining": "100%, 100%, 100%"
-        },
-        "RightFront": {
-          "StartingPressure": "165 kPa",
-          "LastHotPressure": "165 kPa",
-          "LastTempsIMO": "44C, 44C, 44C",
-          "TreadRemaining": "100%, 100%, 100%"
-        },
-        "RightRear": {
-          "StartingPressure": "165 kPa",
-          "LastHotPressure": "165 kPa",
-          "LastTempsIMO": "44C, 44C, 44C",
-          "TreadRemaining": "100%, 100%, 100%"
-        },
-        "AeroBalanceCalc": {
-          "FrontRhAtSpeed": "43 mm",
-          "RearRhAtSpeed": "53 mm",
-          "RearWingAngle": "9.5 degrees",
-          "FrontDownforce": "38.1%"
-        }
-      },
-      "Chassis": {
-        "FrontBrakes": {
-          "ArbBlades": 3,
-          "TotalToeIn": "-3.1 mm",
-          "BrakePedalRatio": 4.67,
-          "BrakePads": "Medium friction"
-        },
-        "LeftFront": {
-          "CornerWeight": "3162 N",
-          "RideHeight": "51.0 mm",
-          "BumpRubberGap": "12 mm",
-          "SpringRate": "105 N/mm",
-          "Camber": "-3.9 deg"
-        },
-        "LeftRear": {
-          "CornerWeight": "3973 N",
-          "RideHeight": "71.3 mm",
-          "BumpRubberGap": "53 mm",
-          "SpringRate": "200 N/mm",
-          "Camber": "-3.5 deg",
-          "ToeIn": "+1.6 mm"
-        },
-        "Rear": {
-          "FuelLevel": "52.0 L",
-          "ArbBlades": 0,
-          "RearWingAngle": "9.5 degrees"
-        },
-        "InCarAdjustments": {
-          "BrakePressureBias": "55.0%",
-          "AbsSetting": "3 (ABS)",
-          "TractionControlSetting": "3 (T/C)",
-          "DisplayPage": "Race",
-          "CrossWeight": "50.0%"
-        },
-        "RightFront": {
-          "CornerWeight": "3162 N",
-          "RideHeight": "51.0 mm",
-          "BumpRubberGap": "12 mm",
-          "SpringRate": "105 N/mm",
-          "Camber": "-3.9 deg"
-        },
-        "RightRear": {
-          "CornerWeight": "3973 N",
-          "RideHeight": "71.3 mm",
-          "BumpRubberGap": "53 mm",
-          "SpringRate": "200 N/mm",
-          "Camber": "-3.5 deg",
-          "ToeIn": "+1.6 mm"
-        },
-        "GearsDifferential": {
-          "GearStack": "FIA",
-          "FrictionFaces": 8,
-          "DiffPreload": "100 Nm"
-        }
-      },
-      "Dampers": {
-        "FrontDampers": {
-          "LowSpeedCompressionDamping": "5 clicks",
-          "HighSpeedCompressionDamping": "0 clicks",
-          "LowSpeedReboundDamping": "5 clicks",
-          "HighSpeedReboundDamping": "5 clicks"
-        },
-        "RearDampers": {
-          "LowSpeedCompressionDamping": "5 clicks",
-          "HighSpeedCompressionDamping": "0 clicks",
-          "LowSpeedReboundDamping": "5 clicks",
-          "HighSpeedReboundDamping": "7 clicks"
-        }
-      }
     }
   }
 }

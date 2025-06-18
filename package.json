@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "js-yaml": "4.1.0",
-    "nan": "2.22.0"
+    "nan": "^2.22.2"
   },
   "devDependencies": {
     "jsdoc-to-markdown": "9.1.1",

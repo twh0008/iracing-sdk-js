@@ -1014,6 +1014,13 @@
     "count": 1,
     "type": "bool"
   },
+  "SteeringFFBEnabled": {
+    "name": "SteeringFFBEnabled",
+    "desc": "Force feedback is enabled",
+    "unit": "",
+    "count": 1,
+    "type": "bool"
+  },
   "DCLapStatus": {
     "name": "DCLapStatus",
     "desc": "Status of driver change lap requirements",
@@ -1709,7 +1716,7 @@
   },
   "dcPitSpeedLimiterToggle": {
     "name": "dcPitSpeedLimiterToggle",
-    "desc": "In car traction control active",
+    "desc": "Track if pit speed limiter system is enabled",
     "unit": "",
     "count": 1,
     "type": "bool"
@@ -1812,6 +1819,13 @@
     "count": 1,
     "type": "float"
   },
+  "dcPowerSteering": {
+    "name": "dcPowerSteering",
+    "desc": "In car power steering adjustment",
+    "unit": "",
+    "count": 1,
+    "type": "float"
+  },
   "dcBrakeBias": {
     "name": "dcBrakeBias",
     "desc": "In car brake bias adjustment",
@@ -1857,6 +1871,13 @@
   "dcABS": {
     "name": "dcABS",
     "desc": "In car abs adjustment",
+    "unit": "",
+    "count": 1,
+    "type": "float"
+  },
+  "dcThrottleShape": {
+    "name": "dcThrottleShape",
+    "desc": "In car throttle shape adjustment",
     "unit": "",
     "count": 1,
     "type": "float"
