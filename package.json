@@ -4,8 +4,6 @@
   "description": "iRacing SDK implementation for Node.js",
   "main": "src/iracing-sdk-js.js",
   "scripts": {
-    "install": "yarn rebuild",
-    "rebuild": "node-gyp rebuild",
     "smoke-test": "node test/smoke-test.js",
     "write-samples": "node examples/sample-writer.js",
     "test": "node --test test/**/*-spec.js",
