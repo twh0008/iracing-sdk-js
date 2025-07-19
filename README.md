@@ -8,11 +8,15 @@
 
 ## Installing
 
-Make sure you are running [Node.js](https://nodejs.org/) v21 x64 or later. (Currently requires Node 21 for latest node test runner implementation, but should work with Node 20 too.)
+This was forked specifically with imported as a native module inside an electron enviroment. This can still be built with your system node.js if you are using in another environment
 
-`npm install --save iracing-sdk-js`
+`npm install`
 
-`yarn add iracing-sdk-js --save`
+then either
+
+`npm run rebuild`
+
+`npm run rebuild-electron`
 
 
 ## API documentation
@@ -42,7 +46,9 @@ Initialize JsIrSdk, can be done once before using getInstance first time.
 
   
 ```js
-const irsdk = require('iracing-sdk-js')// look for telemetry updates only once per 100 msconst iracing = irsdk.init({telemetryUpdateInterval: 100})
+const irsdk = require('iracing-sdk-js')
+// look for telemetry updates only once per 100 ms
+const iracing = irsdk.init({telemetryUpdateInterval: 100})
 ```
 <a name="module_irsdk.getInstance"></a>
 
@@ -53,7 +59,8 @@ Get initialized instance of JsIrSdk
 **Returns**: [<code>iracing</code>](#iracing) - Running instance of JsIrSdk  
   
 ```js
-const irsdk = require('iracing-sdk-js')const iracing = irsdk.getInstance()
+const irsdk = require('iracing-sdk-js')
+const iracing = irsdk.getInstance()
 ```
 <a name="iracing"></a>
 
@@ -219,7 +226,11 @@ Execute pit command
 
   
 ```js
-// full tank, no tires, no tear offiracing.execPitCmd('clear')iracing.execPitCmd('fuel', 999) // 999 litersiracing.execPitCmd('lf') // new left frontiracing.execPitCmd('lr', 200) // new left rear, 200 kPa
+// full tank, no tires, no tear off
+iracing.execPitCmd('clear')
+iracing.execPitCmd('fuel', 999) // 999 liters
+iracing.execPitCmd('lf') // new left front
+iracing.execPitCmd('lr', 200) // new left rear, 200 kPa
 ```
 <a name="iracing+execTelemetryCmd"></a>
 
@@ -244,7 +255,9 @@ Telemetry description, contains description of available telemetry values
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('TelemetryDescription', function (data) {  console.log(evt)})
+iracing.on('TelemetryDescription', function (data) {
+  console.log(evt)
+})
 ```
 <a name="iracing+event_Telemetry"></a>
 
@@ -254,7 +267,9 @@ Telemetry update
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('Telemetry', function (evt) {  console.log(evt)})
+iracing.on('Telemetry', function (evt) {
+  console.log(evt)
+})
 ```
 <a name="iracing+event_SessionInfo"></a>
 
@@ -264,7 +279,9 @@ SessionInfo update
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('SessionInfo', function (evt) {  console.log(evt)})
+iracing.on('SessionInfo', function (evt) {
+  console.log(evt)
+})
 ```
 <a name="iracing+event_update"></a>
 
@@ -274,7 +291,9 @@ any update event
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('update', function (evt) {  console.log(evt)})
+iracing.on('update', function (evt) {
+  console.log(evt)
+})
 ```
 <a name="iracing+event_Connected"></a>
 
@@ -284,7 +303,9 @@ iRacing, sim, is started
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('Connected', function (evt) {  console.log(evt)})
+iracing.on('Connected', function (evt) {
+  console.log(evt)
+})
 ```
 <a name="iracing+event_Disconnected"></a>
 
@@ -294,7 +315,9 @@ iRacing, sim, was closed
 **Kind**: event emitted by [<code>iracing</code>](#iracing)  
   
 ```js
-iracing.on('Disconnected', function (evt) {  console.log(evt)})
+iracing.on('Disconnected', function (evt) {
+  console.log(evt)
+})
 ```
 <a name="iracing..sessionInfoParser"></a>
 
@@ -502,7 +525,10 @@ Change camera tool state
 
   
 ```js
-// hide UI and enable mouse aimvar States = iracing.Consts.CameraStatevar state = States.CamToolActive | States.UIHidden | States.UseMouseAimModeiracing.camControls.setState(state)
+// hide UI and enable mouse aim
+var States = iracing.Consts.CameraState
+var state = States.CamToolActive | States.UIHidden | States.UseMouseAimMode
+iracing.camControls.setState(state)
 ```
 <a name="switchToCar"></a>
 
@@ -519,22 +545,26 @@ Switch camera, focus on car
 
   
 ```js
-// show car #2iracing.camControls.switchToCar(2)
+// show car #2
+iracing.camControls.switchToCar(2)
       
 ```
   
 ```js
-// show car #02iracing.camControls.switchToCar('02')
+// show car #02
+iracing.camControls.switchToCar('02')
       
 ```
   
 ```js
-// show leaderiracing.camControls.switchToCar('leader')
+// show leader
+iracing.camControls.switchToCar('leader')
       
 ```
   
 ```js
-// show car #2 using cam group 3iracing.camControls.switchToCar(2, 3)
+// show car #2 using cam group 3
+iracing.camControls.switchToCar(2, 3)
 ```
 <a name="switchToPos"></a>
 
@@ -662,7 +692,8 @@ Search timestamp
 
   
 ```js
-// jump to 2nd minute of 3rd sessioniracing.playbackControls.searchTs(2, 2*60*1000)
+// jump to 2nd minute of 3rd session
+iracing.playbackControls.searchTs(2, 2*60*1000)
 ```
 <a name="searchFrame"></a>
 

@@ -4,7 +4,7 @@
   "description": "iRacing SDK implementation for Node.js",
   "main": "src/iracing-sdk-js.js",
   "scripts": {
-    "install": "yarn rebuild",
+    "rebuild-electron": "node-gyp rebuild --target=36.4.0 --dist-url=https://electronjs.org/headers",
     "rebuild": "node-gyp rebuild",
     "smoke-test": "node test/smoke-test.js",
     "write-samples": "node examples/sample-writer.js",
