@@ -10,7 +10,14 @@
     "write-samples": "node examples/sample-writer.js",
     "test": "node --test test/**/*-spec.js",
     "doc": "jsdoc2md -d 3 -t doc/README.hbs --partial doc/examples.hbs -m none -g none src/iracing-sdk-js.js src/JsIrSdk.js src/consts/IrSdkConsts.js > README.md",
-    "ready": "yarn rebuild && yarn test && yarn smoke-test && yarn write-samples && yarn doc"
+    "ready": "yarn rebuild && yarn test && yarn smoke-test && yarn write-samples && yarn doc",
+    "prepare": "husky",
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "lint:fix": "lint-staged",
+    "postinstall": "npm run rebuild-electron"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --fix"
   },
   "keywords": [
     "iracing"
@@ -29,7 +36,14 @@
     "nan": "^2.22.2"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "husky": "^9.1.7",
     "jsdoc-to-markdown": "9.1.1",
+    "lint-staged": "^16.1.2",
     "node-gyp": "11.0.0",
     "prettier": "3.4.2",
     "sandboxed-module": "2.0.4"
